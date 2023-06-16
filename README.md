@@ -1,24 +1,14 @@
-# ENPM 673
-## PROJECT 1
-
-#### Problem 1
+## ENPM 673 Perception for autonomous Robots 
+### Project 1
 
 ---
-Run the problem1.py file or the Problem1.ipynb to for solutions to this problem. The explanation for the steps invloved are given in the report.pdf
+**1. Ball Trajectory Analysis**
 
-> Make sure to specify the correct path for 'ball.mov' in the imread() function
---- 
+Analyzing a video of a red ball being thrown against a wall. The trajectory of the ball is assumed to follow the equation of a parabola. The goal is to detect and plot the pixel coordinates of the center point of the ball in the video, fit a curve to the extracted coordinates using Standard Least Squares, and predict the x-coordinate of the ball’s landing spot.
 
 
-#### Problem 2.1
- Run the problem2_1.py to obtain the output for this problem. Refer the report for explanations and graphs.
- ___
+**2. Lidar Point Cloud Analysis**
 
-#### Problem 2.2
-
-Run the problem2_2a.py and problem2_2b.py files repectively for parts A and B of the 2nd question. The explanation for the steps invloved are given in the report.pdf
-
-> Make sure to specify the correct path for 'pc1.csv' and 'pc2.csv' where the data is being read
---- 
-
+Working with two CSV files containing noisy LIDAR point cloud data in the form of (x, y, z) coordinates of the ground plane. The goal is to compute the covariance matrix, compute the magnitude and direction of the surface normal, and fit a surface to the data using various estimation algorithms such as Standard Least Squares, Total Least Squares, and RANSAC.
+ 
 
